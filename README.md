@@ -1,7 +1,7 @@
 # WP Link To Playlist Item
 
 ## Description
-The plugin makes it possible to link to a playlist item using the ``#p<item number>` hash.
+The plugin makes it possible to link to a playlist item using the `#p<item number>` hash.
 * Plays the `<item number>`
 * Update the history hash when next item plays or an item is selected (clicked on).
 * Scrolls to top of the media element (video or audio)
