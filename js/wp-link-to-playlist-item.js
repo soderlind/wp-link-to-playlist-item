@@ -7,7 +7,7 @@
  * - Scrolls to top of media element (video or audio)
  *
  * @author Per Soderlind - https://soderlind.no
- * @version 0.1
+ * @version 0.2
  * @license: GPL2 (https://www.gnu.org/licenses/gpl-2.0.html)
  */
 
@@ -22,10 +22,22 @@ function wp_link_to_playlist_update_history_hash(newhash) {
 	}
 }
 
+function wp_link_to_playlist_play_item(media,item) {
+	if (media.get(item)) {
+		//play media
+		console.log(media.get(item));
+		media.get(item).click();
+	} else {
+		console.log(media);
+	}
+}
+
 jQuery(function ($) {
+	var wp_link_to_playlist_identifier = window.location.hash;
+	var wp_link_to_playlist_scrollto = 0;
+
 	if (typeof MediaElementPlayer !== 'undefined' && typeof _wpmejsSettings !== 'undefined') {
-		var wp_link_to_playlist_identifier = window.location.hash;
-		var wp_link_to_playlist_scrollto = 0;
+
 		if ( $('.mejs-mediaelement video').length) {
 			wp_link_to_playlist_scrollto = $('.mejs-mediaelement video').offset().top - 20;
 		} else if ($('.wp-playlist').length) {
@@ -34,17 +46,7 @@ jQuery(function ($) {
 
 		if (wp_link_to_playlist_identifier && $('.wp-playlist-item').get().length && wp_link_to_playlist_identifier.slice(2) - 1 <= $('.wp-playlist-item').get().length) {
 			var wp_link_to_playlist_num = (wp_link_to_playlist_identifier.slice(2) - 1 < 0) ? 0 : wp_link_to_playlist_identifier.slice(2) - 1;
-			if ($('.wp-playlist-item').get(wp_link_to_playlist_num)) {
-				//when page is loaded or reloaded, scroll to top of wp_link_to_playlist_scrollto
-				$(window).on('load', function() {
-				    $(window).scrollTop(wp_link_to_playlist_scrollto);
-				});
-				$(window).on('beforeunload', function() {
-				    $(window).scrollTop(wp_link_to_playlist_scrollto);
-				});
-				//play media
-				$('.wp-playlist-item').get(wp_link_to_playlist_num).click();
-			}
+			wp_link_to_playlist_play_item($('.wp-playlist-item'),wp_link_to_playlist_num);
 		}
 
 		//update history when next media element plays
@@ -73,6 +75,13 @@ jQuery(function ($) {
 
 		$(window).on('popstate', function(e){
 			window.location.href = window.history.href;
+		});
+		//when page is loaded or reloaded, scroll to top of wp_link_to_playlist_scrollto
+		$(window).on('load', function() {
+			$(window).scrollTop(wp_link_to_playlist_scrollto);
+		});
+		$(window).on('beforeunload', function() {
+			$(window).scrollTop(wp_link_to_playlist_scrollto);
 		});
 	}
 });
