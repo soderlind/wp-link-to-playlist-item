@@ -1,3 +1,4 @@
+[![Code Climate](https://codeclimate.com/github/soderlind/wp-link-to-playlist-item/badges/gpa.svg)](https://codeclimate.com/github/soderlind/wp-link-to-playlist-item)
 # WP Link To Playlist Item
 
 ## Description
