@@ -1,0 +1,46 @@
+=== WP Link To Playlist Item ===
+Contributors: PerS, dssweb
+Donate link: https://soderlind.no/donate/
+Tags: playlist, video, audio
+Requires at least: 4.4
+Tested up to: 4.5.2
+Stable tag: trunk
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+The plugin makes it possible to link to a playlist item.
+
+== Description ==
+
+The plugin makes it possible to link to a playlist item using the `#p<item number>` hash.
+
+* Plays the `<item number>`
+* Update the history hash when next item plays or an item is selected (clicked on).
+* Scrolls to top of the media element (video or audio)
+
+**Usage**
+
+Add `#p<item number>` to the URL to a page with a playlist.
+
+Eg: `/link-to-page-with-playlist/#p2` will open the page and play item number 2.
+
+
+== Installation ==
+
+1. Upload the plugin files to the `/wp-content/plugins/wp-link-to-playlist-item` directory, or install the plugin through the WordPress plugins screen directly.
+1. Activate the plugin through the 'Plugins' screen in WordPress
+
+== Frequently Asked Questions ==
+
+= Can I have more than one playlist on a page? =
+
+The plugin only supports one playlist per page.
+
+= Does plugin support video or audio playlists? =
+
+The plugin supports video or audio playlists.
+
+== Changelog ==
+
+= 0.1 =
+* Initial release
