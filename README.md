@@ -15,7 +15,7 @@ Eg: `/link-to-page-with-playlist/#p2` will open the page and play item number 2.
 
 ## Demo
 
-(https://soderlind.no/playlist-demo/#p2)[https://soderlind.no/playlist-demo/#p2]
+[https://soderlind.no/playlist-demo/#p2](https://soderlind.no/playlist-demo/#p2)
 
 ## Limitation
 
