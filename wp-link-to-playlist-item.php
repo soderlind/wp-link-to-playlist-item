@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: WP Link To Playlist Item
- * Version: 0.4
+ * Version: 0.2.5
  * Plugin URI: https://github.com/soderlind/wp-link-to-playlist-item
  * Description: The plugin makes it possible to link to a playlist item using the #p<item number> hash, eg: /link-to-page-with-playlist/#p2
  * Author: Per Soderlind
@@ -16,7 +16,7 @@ function wp_link_to_playlist_item_enqueue_script() {
 	wp_enqueue_script( 'wp-link-to-playlist-item',
 		plugins_url( '/js/wp-link-to-playlist-item.js' , __FILE__ ),
 		array( 'wp-playlist' ),
-		'0.4',
+		'0.2.5',
 		true
 	);
 }
