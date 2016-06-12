@@ -1,4 +1,4 @@
-[![Code Climate](https://codeclimate.com/github/soderlind/wp-link-to-playlist-item/badges/gpa.svg)](https://codeclimate.com/github/soderlind/wp-link-to-playlist-item)
+[![Build Status](https://travis-ci.org/soderlind/wp-link-to-playlist-item.svg?branch=master)](https://travis-ci.org/soderlind/wp-link-to-playlist-item) [![Code Climate](https://codeclimate.com/github/soderlind/wp-link-to-playlist-item/badges/gpa.svg)](https://codeclimate.com/github/soderlind/wp-link-to-playlist-item)
 # WP Link To Playlist Item
 
 ## Description
