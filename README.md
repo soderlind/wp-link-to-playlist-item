@@ -11,11 +11,10 @@ The plugin makes it possible to link to a playlist item using the `#p<item numbe
 
 Add `#p<item number>` to the URL to a page with a playlist.
 
-Eg: `/link-to-page-with-playlist/#p2` will open the page and play item number 2.
 
 ## Demo
 
-[https://soderlind.no/playlist-demo/#p2](https://soderlind.no/playlist-demo/#p2)
+This will play item number 2: [https://soderlind.no/playlist-demo/#p2](https://soderlind.no/playlist-demo/#p2)
 
 ## Limitation
 
