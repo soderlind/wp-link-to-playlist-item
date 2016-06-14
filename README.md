@@ -22,7 +22,7 @@ Only supports one playlist per page.
 
 ## Installation
 
-Install and network activate the WP Link To Playlist Item plugin.
+Install and network activate the WP Link To Playlist Item plugin. The plugin is also available from the [WorldPress plugin directory](https://wordpress.org/plugins/wp-link-to-playlist-item/)
 
 ## Copyright and License
 
