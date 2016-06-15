@@ -22,11 +22,9 @@ The plugin makes it possible to link to a playlist item using the `#p<item numbe
 
 Add `#p<item number>` to the URL to a page with a playlist.
 
-Eg: `/link-to-page-with-playlist/#p2` will open the page and play item number 2.
-
 **Demo**
 
-This link will start item number 2 in the playlist: [https://soderlind.no/playlist-demo/#p2](https://soderlind.no/playlist-demo/#p2)
+This will play item number 2: [https://soderlind.no/playlist-demo/#p2](https://soderlind.no/playlist-demo/#p2)
 
 == Installation ==
 
@@ -49,5 +47,6 @@ The plugin supports video and audio playlists.
 * Removed history.popstate event
 * [Tested code with Code Climate](https://codeclimate.com/github/soderlind/wp-link-to-playlist-item)
 * Fixed cyclomatic complexity in JavaScript code
+* Replaced onload event with custom event `scroll:top`
 = 0.1 =
 * Initial release
