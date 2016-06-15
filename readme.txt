@@ -4,7 +4,7 @@ Donate link: https://soderlind.no/donate/
 Tags: playlist, video, audio
 Requires at least: 4.4
 Tested up to: 4.5.2
-Stable tag: 0.2.6
+Stable tag: 0.2.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 

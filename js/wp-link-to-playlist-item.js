@@ -7,7 +7,7 @@
  * - Scrolls to top of media element (video or audio)
  *
  * @author Per Soderlind - https://soderlind.no
- * @version 0.2.6
+ * @version 0.2.7
  * @license: GPL2 (https://www.gnu.org/licenses/gpl-2.0.html)
  */
 
