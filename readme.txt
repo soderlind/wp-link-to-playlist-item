@@ -3,8 +3,8 @@ Contributors: PerS, dssweb
 Donate link: https://soderlind.no/donate/
 Tags: playlist, video, audio
 Requires at least: 4.4
-Tested up to: 4.6
-Stable tag: 0.2.8
+Tested up to: 4.7
+Stable tag: 0.2.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -42,6 +42,8 @@ The plugin only supports one playlist per page.
 The plugin supports video and audio playlists.
 
 == Changelog ==
+= 0.2.9 =
+* Tested & found compatible with WP 4.7.
 = 0.2.8 =
 * Tested & found compatible with WP 4.6.
 = 0.2.x =

@@ -1,8 +1,8 @@
 {
   "name": "wp-link-to-playlist-item",
   "title": "WP Link To Playlist Item",
-  "version": "0.2.8",
-  "git_tag": "0.2.8",
+  "version": "0.2.9",
+  "git_tag": "0.2.9",
   "description": "The plugin makes it possible to link to a playlist item",
   "main": "wp-link-to-playlist-item.php",
   "scripts": {
