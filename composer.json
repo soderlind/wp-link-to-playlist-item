@@ -1,0 +1,8 @@
+{
+    "name": "soderlind/wp-link-to-playlist-item",
+    "description": "WP Link To Playlist Item",
+    "type": "wordpress-plugin",
+    "homepage": "https://github.com/soderlind/wp-link-to-playlist-item",
+    "license": "GPL-2.0-or-later",
+    "require": {}
+}
